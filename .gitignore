@@ -1,0 +1,46 @@
+# Ambientes Virtuais
+venv/
+.venv/
+env/
+ENV/
+
+# Bytecodes e Caches do Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.cpython-*
+
+# Variáveis de Ambiente e Credenciais (Segurança)
+.env
+.env.*
+*.env
+*.pem
+*.key
+
+# Dados Brutos e Datasets Volumosos
+data/
+
+# Resultados gerados localmente (CSVs de saída e relatórios)
+results/*.csv
+results/graphs/*.png
+results/graphs/*.jpg
+
+# Arquivos do Sistema Operacional (Windows / macOS / Linux)
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# IDEs e Editores de Código
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# Logs e Arquivos Temporários
+*.log
+tmp/
+temp/
